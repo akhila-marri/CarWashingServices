@@ -1,6 +1,7 @@
 package pageObjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -44,7 +45,13 @@ public class HomePage extends BasePage {
 
 	}
 	public void listServices() {
-		listing.click();
+		 try {
+			 listing.click();
+		    } catch (Exception e) {
+		        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", listing);
+		        wait.until(ExpectedConditions.elementToBeClickable(listing));
+		        listing.click();
+		    }
 	}
 	
 	public void gymServices() {
