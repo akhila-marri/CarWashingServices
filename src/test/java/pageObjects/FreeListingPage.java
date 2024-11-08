@@ -25,7 +25,8 @@ public class FreeListingPage extends BasePage {
 		Random rm = new Random();
         wait.until(ExpectedConditions.presenceOfElementLocated(inputBoxLocator)).sendKeys(String.valueOf(rm.nextInt(900000000)));
     
-        WebElement startNow = driver.findElement(buttonLocator);
+        WebElement startNow = wait.until(ExpectedConditions.elementToBeClickable(buttonLocator));
+        
         try {
         	startNow.click();
 		    } catch (Exception e) {

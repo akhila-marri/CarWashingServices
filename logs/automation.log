@@ -10,3 +10,9 @@
 2024-11-08 15:35:12 INFO  TC_002_ListWithInvalidDataAndRetriveErrorMsg:33 - **** TC_002_ListWithInvalidDataAndRetriveErrorMsg Completed Successfully *****
 2024-11-08 15:35:26 INFO  TC_003_RetriveAllGymServicesFilters:18 - **** Starting TC_003_RetriveAllGymServicesFilters *****
 2024-11-08 15:35:32 INFO  TC_003_RetriveAllGymServicesFilters:35 - **** TC_003_RetriveAllGymServicesFilters Completed Successfully *****
+2024-11-08 15:51:56 INFO  TC_001_ListOfCarWashingServices:16 - **** Starting TC_001_ListOfCarWashingServices*****
+2024-11-08 15:52:09 INFO  TC_001_ListOfCarWashingServices:34 - **** TC_001_ListOfCarWashingServices Completed Successfully *****
+2024-11-08 15:52:23 INFO  TC_002_ListWithInvalidDataAndRetriveErrorMsg:15 - **** Starting TC_002_ListWithInvalidDataAndRetriveErrorMsg *****
+2024-11-08 15:52:30 INFO  TC_002_ListWithInvalidDataAndRetriveErrorMsg:33 - **** TC_002_ListWithInvalidDataAndRetriveErrorMsg Completed Successfully *****
+2024-11-08 15:52:41 INFO  TC_003_RetriveAllGymServicesFilters:18 - **** Starting TC_003_RetriveAllGymServicesFilters *****
+2024-11-08 15:52:50 INFO  TC_003_RetriveAllGymServicesFilters:35 - **** TC_003_RetriveAllGymServicesFilters Completed Successfully *****

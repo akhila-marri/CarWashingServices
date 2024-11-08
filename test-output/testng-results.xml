@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-08T15:34:27 IST" name="Suite" finished-at="2024-11-08T15:35:35 IST" duration-ms="67702">
+  <suite started-at="2024-11-08T15:51:46 IST" name="Suite" finished-at="2024-11-08T15:52:54 IST" duration-ms="68061">
     <groups>
       <group name="Regression">
         <method signature="TC_002_ListWithInvalidDataAndRetriveErrorMsg.errorMsgForInvalidData()[pri:0, instance:testCases.TC_002_ListWithInvalidDataAndRetriveErrorMsg@290222c1]" name="errorMsgForInvalidData" class="testCases.TC_002_ListWithInvalidDataAndRetriveErrorMsg"/>
@@ -15,9 +15,9 @@
         <method signature="TC_003_RetriveAllGymServicesFilters.retriveFilters()[pri:0, instance:testCases.TC_003_RetriveAllGymServicesFilters@67f639d3]" name="retriveFilters" class="testCases.TC_003_RetriveAllGymServicesFilters"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-11-08T15:34:27 IST" name="Test1" finished-at="2024-11-08T15:35:35 IST" duration-ms="67702">
+    <test started-at="2024-11-08T15:51:46 IST" name="Test1" finished-at="2024-11-08T15:52:54 IST" duration-ms="68061">
       <class name="testCases.TC_003_RetriveAllGymServicesFilters">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_RetriveAllGymServicesFilters@67f639d3]" started-at="2024-11-08T15:35:16 IST" name="setup" finished-at="2024-11-08T15:35:26 IST" duration-ms="9734" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_RetriveAllGymServicesFilters@67f639d3]" started-at="2024-11-08T15:52:34 IST" name="setup" finished-at="2024-11-08T15:52:41 IST" duration-ms="7230" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,17 +33,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="retriveFilters()[pri:0, instance:testCases.TC_003_RetriveAllGymServicesFilters@67f639d3]" started-at="2024-11-08T15:35:26 IST" name="retriveFilters" finished-at="2024-11-08T15:35:32 IST" duration-ms="5770" status="PASS">
+        <test-method signature="retriveFilters()[pri:0, instance:testCases.TC_003_RetriveAllGymServicesFilters@67f639d3]" started-at="2024-11-08T15:52:41 IST" name="retriveFilters" finished-at="2024-11-08T15:52:50 IST" duration-ms="8499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- retriveFilters -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_RetriveAllGymServicesFilters@67f639d3]" started-at="2024-11-08T15:35:32 IST" name="tearDown" finished-at="2024-11-08T15:35:35 IST" duration-ms="2722" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_RetriveAllGymServicesFilters@67f639d3]" started-at="2024-11-08T15:52:50 IST" name="tearDown" finished-at="2024-11-08T15:52:54 IST" duration-ms="4243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_003_RetriveAllGymServicesFilters -->
       <class name="testCases.TC_001_ListOfCarWashingServices">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_ListOfCarWashingServices@550dbc7a]" started-at="2024-11-08T15:34:27 IST" name="setup" finished-at="2024-11-08T15:34:39 IST" duration-ms="11225" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_ListOfCarWashingServices@550dbc7a]" started-at="2024-11-08T15:51:46 IST" name="setup" finished-at="2024-11-08T15:51:56 IST" duration-ms="9583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,17 +59,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="topFiveCarWashingCenter()[pri:0, instance:testCases.TC_001_ListOfCarWashingServices@550dbc7a]" started-at="2024-11-08T15:34:39 IST" name="topFiveCarWashingCenter" finished-at="2024-11-08T15:34:51 IST" duration-ms="12398" status="PASS">
+        <test-method signature="topFiveCarWashingCenter()[pri:0, instance:testCases.TC_001_ListOfCarWashingServices@550dbc7a]" started-at="2024-11-08T15:51:56 IST" name="topFiveCarWashingCenter" finished-at="2024-11-08T15:52:09 IST" duration-ms="13407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- topFiveCarWashingCenter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_ListOfCarWashingServices@550dbc7a]" started-at="2024-11-08T15:34:51 IST" name="tearDown" finished-at="2024-11-08T15:34:55 IST" duration-ms="4474" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_ListOfCarWashingServices@550dbc7a]" started-at="2024-11-08T15:52:09 IST" name="tearDown" finished-at="2024-11-08T15:52:12 IST" duration-ms="3118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_001_ListOfCarWashingServices -->
       <class name="testCases.TC_002_ListWithInvalidDataAndRetriveErrorMsg">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_ListWithInvalidDataAndRetriveErrorMsg@290222c1]" started-at="2024-11-08T15:34:55 IST" name="setup" finished-at="2024-11-08T15:35:03 IST" duration-ms="7354" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_ListWithInvalidDataAndRetriveErrorMsg@290222c1]" started-at="2024-11-08T15:52:12 IST" name="setup" finished-at="2024-11-08T15:52:23 IST" duration-ms="10308" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,11 +85,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="errorMsgForInvalidData()[pri:0, instance:testCases.TC_002_ListWithInvalidDataAndRetriveErrorMsg@290222c1]" started-at="2024-11-08T15:35:03 IST" name="errorMsgForInvalidData" finished-at="2024-11-08T15:35:12 IST" duration-ms="8943" status="PASS">
+        <test-method signature="errorMsgForInvalidData()[pri:0, instance:testCases.TC_002_ListWithInvalidDataAndRetriveErrorMsg@290222c1]" started-at="2024-11-08T15:52:23 IST" name="errorMsgForInvalidData" finished-at="2024-11-08T15:52:30 IST" duration-ms="6929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorMsgForInvalidData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_ListWithInvalidDataAndRetriveErrorMsg@290222c1]" started-at="2024-11-08T15:35:12 IST" name="tearDown" finished-at="2024-11-08T15:35:16 IST" duration-ms="4771" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_ListWithInvalidDataAndRetriveErrorMsg@290222c1]" started-at="2024-11-08T15:52:30 IST" name="tearDown" finished-at="2024-11-08T15:52:34 IST" duration-ms="4453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
