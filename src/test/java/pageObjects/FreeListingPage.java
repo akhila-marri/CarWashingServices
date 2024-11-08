@@ -27,13 +27,9 @@ public class FreeListingPage extends BasePage {
     
         WebElement startNow = wait.until(ExpectedConditions.visibilityOfElementLocated(buttonLocator));
        
-        try {
-        	startNow.click();
-		    } catch (Exception e) {
-		        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", startNow);
-		        //wait.until(ExpectedConditions.elementToBeClickable(startNow));
-		        startNow.click();
-		    }
+        
+        startNow.click();
+		    
 	}
         
 	
