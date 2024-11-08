@@ -19,10 +19,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
@@ -36,14 +32,14 @@ public class BaseClass {
 	public Logger logger;
 	public Properties properties;
 
-	@BeforeClass(groups= {"sanity"})
+	@BeforeClass(groups= {"sanity","smoke","Regression"})
 	@Parameters({"os", "browser"})
 	public void setup(String os,String browser) throws IOException {
 
 		FileReader file=new FileReader(".//src//test//resources//config.properties");
 		properties=new Properties();
 		properties.load(file);
-		
+		//Initialize logger 
 		logger=LogManager.getLogger(this.getClass());
 		
 		if (properties.getProperty("execution_env").equalsIgnoreCase("remote")) {
@@ -144,13 +140,14 @@ public class BaseClass {
 
 
 	}
-	@AfterClass(groups= {"sanity"})
+	@AfterClass(groups= {"sanity","smoke","Regression"})
 	public void tearDown()
 	{
 		if (driver != null) { 
             driver.quit();
         }
 	}
+	
 	public String captureScreen(String tname) throws IOException {
 
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());

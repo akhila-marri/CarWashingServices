@@ -9,7 +9,7 @@ import testBase.BaseClass;
 
 public class TC_002_ListWithInvalidDataAndRetriveErrorMsg extends BaseClass {
 
-	@Test(groups= {"smoke"})
+	@Test(groups= {"Regression"})
 	public void errorMsgForInvalidData() {
 		
 		logger.info("**** Starting TC_002_ListWithInvalidDataAndRetriveErrorMsg *****");

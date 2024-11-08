@@ -18,7 +18,7 @@ public class GymPage extends BasePage{
 		super(driver);
 		wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 	}
-	
+
 	public void retriveAllFilters() throws IOException {
 		
     	ExcelUtility excelUtility = new ExcelUtility(".\\reports\\GymDetails.xlsx");

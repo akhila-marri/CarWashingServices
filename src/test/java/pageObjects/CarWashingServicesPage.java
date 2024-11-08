@@ -17,7 +17,7 @@ public class CarWashingServicesPage extends BasePage {
   
     public CarWashingServicesPage(WebDriver driver) {
         super(driver);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        //wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
     
     public void topRatedFilter() {

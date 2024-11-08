@@ -10,7 +10,7 @@ import pageObjects.HomePage;
 import testBase.BaseClass;
 
 public class TC_001_ListOfCarWashingServices extends BaseClass{
-	@Test(groups= {"sanity"})
+	@Test(groups= {"sanity","smoke"})
 	public void topFiveCarWashingCenter() throws IOException {
 
 		logger.info("**** Starting TC_001_ListOfCarWashingServices*****");

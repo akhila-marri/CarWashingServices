@@ -56,7 +56,7 @@ public class ExtentReportManager implements ITestListener {
 		extent.setSystemInfo("Groups", includedGroups.toString());
 		}
 	}
-
+	
 	public void onTestSuccess(ITestResult result) {
 	
 		test = extent.createTest(result.getTestClass().getName());
