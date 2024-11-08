@@ -12,10 +12,8 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//*[@id='main-auto']") 
 	WebElement searchBox;
 	
-//	@FindBy(xpath="//*[text()=\"Free Listing\"]")
-//	WebElement listing;
-	
-	By listing = By.xpath("//*[text()=\"Free Listing\"]");
+	@FindBy(xpath="//*[text()=\"Free Listing\"]")
+	WebElement listing;
 	
 	@FindBy(xpath="//img[contains(@title,'Gym')]")
 	WebElement gym;
@@ -48,7 +46,7 @@ public class HomePage extends BasePage {
 	}
 	public void listServices() {
 		 
-			 wait.until(ExpectedConditions.visibilityOfElementLocated(listing)).click();
+			listing.click();
 		    
 	}
 	

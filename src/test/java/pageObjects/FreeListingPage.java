@@ -25,13 +25,13 @@ public class FreeListingPage extends BasePage {
 		Random rm = new Random();
         wait.until(ExpectedConditions.presenceOfElementLocated(inputBoxLocator)).sendKeys(String.valueOf(rm.nextInt(900000000)));
     
-        WebElement startNow = wait.until(ExpectedConditions.elementToBeClickable(buttonLocator));
-        
+        WebElement startNow = wait.until(ExpectedConditions.visibilityOfElementLocated(buttonLocator));
+       
         try {
         	startNow.click();
 		    } catch (Exception e) {
 		        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", startNow);
-		        wait.until(ExpectedConditions.elementToBeClickable(startNow));
+		        //wait.until(ExpectedConditions.elementToBeClickable(startNow));
 		        startNow.click();
 		    }
 	}
