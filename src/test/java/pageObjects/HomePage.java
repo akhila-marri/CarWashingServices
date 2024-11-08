@@ -45,13 +45,9 @@ public class HomePage extends BasePage {
 
 	}
 	public void listServices() {
-		 try {
+		 
 			 listing.click();
-		    } catch (Exception e) {
-		        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", listing);
-		        wait.until(ExpectedConditions.elementToBeClickable(listing));
-		        listing.click();
-		    }
+		    
 	}
 	
 	public void gymServices() {
