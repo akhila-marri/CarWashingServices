@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.asserts.SoftAssert;
 
 public class FreeListingPage extends BasePage {
 	
@@ -36,7 +37,10 @@ public class FreeListingPage extends BasePage {
 	
 	public void retriveErrorMsg() {
 		String err = wait.until(ExpectedConditions.presenceOfElementLocated(errorMsgLocator)).getText();
+		SoftAssert errorCheck = new SoftAssert();
+		errorCheck.assertEquals(err,"Please Enter a Valid Mobile Number");
         System.out.println(err);
+        errorCheck.assertAll();
 	}
 	
 

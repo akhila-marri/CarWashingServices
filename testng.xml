@@ -23,18 +23,6 @@
     </classes>
   </test> <!-- Test -->
   
-  <!-- <test thread-count="5" name="Test2">
-	
-	<parameter name="os" value="Windows" />
-	<parameter name="browser"  value="edge"/>
-	
-    <classes>
-      <class name="testCases.TC_001_ListOfCarWashingServices"/>
-      <class name="testCases.TC_002_ListWithInvalidDataAndRetriveErrorMsg"/>
-      <class name="testCases.TC_003_RetriveAllGymServicesFilters"/>
-    </classes>
-  </test> -->
-  
   
 
 </suite> <!-- Suite -->

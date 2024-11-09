@@ -15,13 +15,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_001_ListOfCarWashingServices">
+      <class name="testCases.TC_002_ListWithInvalidDataAndRetriveErrorMsg">
         <methods>
-          <include name="topFiveCarWashingCenter"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="errorMsgForInvalidData"/>
         </methods>
-      </class> <!-- testCases.TC_001_ListOfCarWashingServices -->
+      </class> <!-- testCases.TC_002_ListWithInvalidDataAndRetriveErrorMsg -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
