@@ -26,7 +26,7 @@ public class ExtentReportManager implements ITestListener {
 	public ExtentTest test;
 
 	String repName;
-
+	
 	public void onStart(ITestContext testContext) {
 		
 			

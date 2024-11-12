@@ -15,6 +15,13 @@
       </run>
     </groups>
     <classes>
+      <class name="testCases.TC_001_ListOfCarWashingServices">
+        <methods>
+          <include name="topFiveCarWashingCenter"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_001_ListOfCarWashingServices -->
       <class name="testCases.TC_002_ListWithInvalidDataAndRetriveErrorMsg">
         <methods>
           <include name="tearDown"/>

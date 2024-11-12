@@ -23,11 +23,12 @@ public class FreeListingPage extends BasePage {
 	}
 	
 	public void listWithInvalidMobileNo() {
+		
 		Random rm = new Random();
         wait.until(ExpectedConditions.presenceOfElementLocated(inputBoxLocator)).sendKeys(String.valueOf(rm.nextInt(900000000)));
     
         WebElement startNow = wait.until(ExpectedConditions.visibilityOfElementLocated(buttonLocator));
-       
+
         
         startNow.click();
 		    
